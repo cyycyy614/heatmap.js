@@ -340,8 +340,8 @@ var Canvas2dRenderer = (function Canvas2dRendererClosure() {
     this._width = canvas.width = shadowCanvas.width = config.width || +(computed.width.replace(/px/,''));
     this._height = canvas.height = shadowCanvas.height = config.height || +(computed.height.replace(/px/,''));
 
-    this.shadowCtx = shadowCanvas.getContext('2d');
-    this.ctx = canvas.getContext('2d');
+    this.shadowCtx = shadowCanvas.getContext('2d', { willReadFrequently: true });
+    this.ctx = canvas.getContext('2d', { willReadFrequently: true });
 
     // @TODO:
     // conditional wrapper

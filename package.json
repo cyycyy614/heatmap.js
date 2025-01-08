@@ -1,12 +1,9 @@
 {
-  "name": "heatmap.js",
+  "name": "techen-heatmap.js",
   "version": "2.0.5",
   "description": "Dynamic JavaScript Heatmaps for the Web",
-  "homepage": "https://www.patrick-wied.at/static/heatmapjs/",
   "author": {
     "name": "Patrick Wied",
-    "email": "heatmapjs@patrick-wied.at",
-    "url": "https://www.patrick-wied.at/"
   },
   "main": "build/heatmap.js",
   "devDependencies": {
