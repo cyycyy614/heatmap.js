@@ -9,7 +9,7 @@
   // Supports UMD. AMD, CommonJS/Node.js and browser context
   if (typeof module !== "undefined" && module.exports) {
     module.exports = factory(
-      require('heatmap.js'),
+      require('techen-heatmap.js'),
       require('google-maps')
     );
   } else if (typeof define === "function" && define.amd) {
